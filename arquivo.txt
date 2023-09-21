@@ -1,0 +1,58 @@
+programa
+{
+	funcao inicio()
+	{
+		real total = 0.0 
+		
+		inteiro casos
+		escreva("lanchonete da jhulia\n\n")
+		faca
+		{
+	
+			escreva("cardapio\n")
+			
+			escreva("  1 -> x salada  R$ 12,00 \n")
+			escreva("  2 -> x bacon R$ 13,00 \n")
+			escreva("  3 -> x egg R$ 14,00\n")
+      escreva("  4 ->  refrigerante R$ 6,00 \n")
+			escreva("  5 finalizar pedido \n")
+			
+			escreva("digite o numero do seu pedido: ")
+			
+			
+			leia(casos)
+		
+
+			escolha (casos)
+			{
+			
+				caso 1: 
+	total = total + 12.0
+			 	pare
+			 	
+			 	caso 2: 
+			 		total = total + 13.0
+			 	pare
+			 	
+			 	caso 3: 
+				total = total + 14.0
+			 	pare
+			 	
+        	caso 4: 
+			 		total = total + 6.0
+			 	pare
+			 	
+			 	caso 5: 
+			escreva ("\npedido finalizado com o valor de : ", total)
+			 	pare
+
+			 	caso contrario:
+			 		escreva ("\nvoce informou um numero errado\n\n")
+			}			 
+		}
+		enquanto(casos != 5)
+
+		}
+	}
+
+
