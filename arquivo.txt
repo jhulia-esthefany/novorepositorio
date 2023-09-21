@@ -5,7 +5,7 @@ programa
 		real total = 0.0 
 		
 		inteiro casos
-		escreva("lanchonete da jhulia\n\n")
+		escreva("lanchonete da jhulia v 2\n\n")
 		faca
 		{
 	
